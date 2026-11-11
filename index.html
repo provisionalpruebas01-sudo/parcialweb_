@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusIA - El Futuro de la Inteligencia Artificial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación semántica -->
+    <header id="inicio">
+        <div class="logo-container">
+            <h1>Nexus<span>IA</span></h1>
+        </div>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#fundamentos">Fundamentos</a></li>
+                <li><a href="#aplicaciones">Aplicaciones</a></li>
+                <li><a href="#etica">Ética e Impacto</a></li>
+                <li><a href="#contacto">Comunidad</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Transformando el Presente, Diseñando el Futuro</h2>
+                <p>La Inteligencia Artificial representa uno de los avances más revolucionarios en la historia de la informática. Explora sus fundamentos, arquitecturas de aprendizaje y el impacto sistemático en la sociedad moderna.</p>
+                <button id="btn-interactivo" class="btn-principal">Generar Dato Curioso de IA</button>
+                <p id="texto-dinamico" class="mensaje-oculto"></p>
+            </div>
+        </section>
+
+        <!-- Sección de Fundamentos y Conceptos -->
+        <section id="fundamentos" class="seccion-info">
+            <h2>Fundamentos de la Inteligencia Artificial</h2>
+            <div class="contenedor-articulos">
+                <article class="tarjeta-articulo">
+                    <h3>¿Qué es la Inteligencia Artificial?</h3>
+                    <p>La Inteligencia Artificial (IA) es la disciplina perteneciente a las ciencias de la computación que busca construir sistemas capaces de realizar tareas que habitualmente requieren de la inteligencia humana. Estas tareas incluyen el reconocimiento de patrones, la toma de decisiones basada en datos no estructurados, la resolución de problemas lógicos y la comprensión del lenguaje natural.</p>
+                </article>
+
+                <article class="tarjeta-articulo">
+                    <h3>Breve Historia y Evolución</h3>
+                    <p>Desde la célebre prueba de Turing propuesta en 1950 y la histórica Conferencia de Dartmouth en 1956, la IA ha atravesado múltiples periodos de aceleración y los denominados "inviernos de la IA". En la última década, el incremento exponencial en la capacidad de cómputo (GPUs/TPUs) y la disponibilidad masiva de datos (Big Data) impulsaron el florecimiento de las Redes Neuronales Profundas (Deep Learning).</p>
+                </article>
+
+                <article class="tarjeta-articulo">
+                    <h3>Tipos de Inteligencia Artificial</h3>
+                    <p>La industria clasifica la IA principalmente en tres niveles teóricos:</p>
+                    <ul>
+                        <li><strong>IA Estrecha o Débil (ANI):</strong> Diseñada para resolver una tarea específica con alta precisión (ej. asistentes de voz, filtros de spam, motores de recomendación).</li>
+                        <li><strong>IA General (AGI):</strong> Capacidad hipotética de un sistema para razonar, aprender y aplicar conocimiento en cualquier dominio al mismo nivel que un ser humano.</li>
+                        <li><strong>Superinteligencia Artificial (ASI):</strong> Intelecto sintético que superaría drásticamente la capacidad cognitiva combinada de la humanidad.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de Aplicaciones con Imágenes -->
+        <section id="aplicaciones" class="seccion-info fondo-alternativo">
+            <h2>Campos Principales de Aplicación</h2>
+            <div class="grid-aplicaciones">
+                <article class="card">
+                    <img src="IMG/ROBOT.avif" alt="Machine Learning y Análisis de Datos">
+                    <div class="card-body">
+                        <h3>Machine & Deep Learning</h3>
+                        <p>Desarrollo de algoritmos estadísticos (Redes Neuronales Convolucionales y Transformers) capaces de identificar patrones complejos y predecir tendencias sin ser programados explícitamente.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="IMG/FONDO.avif" alt="Procesamiento de Lenguaje Natural">
+                    <div class="card-body">
+                        <h3>Procesamiento de Lenguaje (NLP)</h3>
+                        <p>Técnicas que permiten a las máquinas comprender, interpretar y generar texto en lenguaje humano. Es la base de los Grandes Modelos de Lenguaje (LLMs) y traductores automáticos.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="IMG/Perro.avif" alt="Visión por Computador">
+                    <div class="card-body">
+                        <h3>Visión por Computador</h3>
+                        <p>Sistemas computacionales que extraen información con sentido a partir de imágenes digitales, video o sensores LiDAR. Utilizado en diagnóstico médico por imágenes y vehículos autónomos.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="IMG/robot 2.avif" alt="Robótica e Inteligencia Física">
+                    <div class="card-body">
+                        <h3>Robótica Autónoma</h3>
+                        <p>Integración de agentes de IA en hardware físico para la navegación, manipulación de objetos de precisión y automatización de cadenas logísticas en entornos dinámicos.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de Ética e Impacto -->
+        <section id="etica" class="seccion-info">
+            <h2>Desafíos Éticos y Futuro</h2>
+            <article class="tarjeta-destacada">
+                <h3>El Reto del Sesgo y la Transparencia</h3>
+                <p>El despliegue masivo de algoritmos en la toma de decisiones crediticias, judiciales y de contratación ha puesto en evidencia la necesidad de mitigar los <em>sesgos algorítmicos</em>. Dado que los modelos aprenden a partir de datos históricos, pueden replicar o amplificar prejuicios preexistentes. Por ello, la investigación en <strong>IA Explicable (XAI)</strong> y la regulación del marco ético son pilares fundamentales para el desarrollo responsable de la tecnología.</p>
+            </article>
+        </section>
+
+        <!-- Sección de Formulario de Registro / Contacto -->
+        <section id="contacto" class="seccion-contacto fondo-alternativo">
+            <h2>Regístrate en el Boletín de Noticias IA</h2>
+            <p class="subtitulo-form">Recibe artículos técnicos, proyectos de código abierto y novedades sobre inteligencia artificial directamente en tu correo.</p>
+
+            <form id="formulario-registro" class="form-estilo">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" placeholder="ejemplo@correo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="area">Especialidad de Interés:</label>
+                    <select id="area">
+                        <option value="">Selecciona una especialidad</option>
+                        <option value="ml">Machine & Deep Learning</option>
+                        <option value="nlp">Procesamiento de Lenguaje Natural (NLP)</option>
+                        <option value="vision">Visión por Computador</option>
+                        <option value="robotica">Robótica y Automatización</option>
+                        <option value="etica">Ética y Gobernanza de la IA</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-principal">Unirme a la Comunidad</button>
+            </form>
+            <div id="mensaje-respuesta" class="alerta-oculta"></div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 NexusIA. Proyecto académico para la asignatura de Programación Web I.</p>
+            <p>Desarrollado con HTML5 Semántico, CSS3 y JavaScript Vanilla.</p>
+        </div>
+    </footer>
+
+    <script src= script.js></script>
+</body>
+</html>
